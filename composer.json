@@ -1,9 +1,9 @@
 {
-    "name": "94noni/highcharts-bundle",
+    "name": "rubenrubiob/highcharts-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Bundle that ease the use of highcharts to display rich graph and charts in your app (for Symfony v6+)",
     "keywords": ["symfony", "charting", "charts", "highcharts", "chart", "graph", "graphs", "ob", "marcaube"],
-    "homepage": "https://github.com/94noni/ObHighchartsBundle",
+    "homepage": "https://github.com/rubenrubiob/ObHighchartsBundle",
     "license": "MIT",
     "authors": [
         {
@@ -11,27 +11,30 @@
         },
         {
             "name": "Antoine Makdessi (fork author)"
+        },
+        {
+            "name": "Rubén Rubio (fork author)"
         }
     ],
     "require": {
         "php": "^8.0",
-        "symfony/http-kernel": "^5.4|^6.0|^7.0",
-        "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-        "symfony/config": "^5.4|^6.0|^7.0",
-        "symfony/yaml": "^5.4|^6.0|^7.0",
+        "symfony/http-kernel": "^7.0|^8.0",
+        "symfony/dependency-injection": "^7.0|^8.0",
+        "symfony/config": "^7.0|^8.0",
+        "symfony/yaml": "^7.0|^8.0",
         "twig/twig": "^3.3"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^5.4|^6.0|^7.0",
-        "symfony/framework-bundle": "^5.4|^6.0|^7.0",
-        "nyholm/symfony-bundle-test": "^2.0"
+        "symfony/phpunit-bridge": "^7.0|^8.0",
+        "symfony/framework-bundle": "^7.0|^8.0",
+        "nyholm/symfony-bundle-test": "^3.1"
     },
     "autoload": {
         "psr-4": { "Ob\\HighchartsBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     }
 }
